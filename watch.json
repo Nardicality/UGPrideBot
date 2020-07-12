@@ -1,0 +1,21 @@
+{
+    "install": {
+    "include": [
+      "^package\\.json$",
+      "^\\.env$"
+    ]
+  },
+  "restart": {
+    "exclude": [
+      "mutes.json"
+    ],
+    "include": [
+      "cmds/",
+      "utils/",
+      "maintenance.json",
+      "server.js",
+      "utils.js",
+      "maintenance.json"
+    ]
+  }
+}
